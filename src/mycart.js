@@ -1,6 +1,15 @@
 import React from 'react'
+import image1 from './Images/1.jpeg';
+import image2 from './Images/2.jpeg';
+import s from './Images/s.jpeg';
+import image3 from './Images/3.jpeg';
+import image4 from './Images/4.webp';
 
-export default function home(){
+
+
+
+
+export default function Home(){
     return(
         <React.Fragment>
 <h1>
@@ -20,12 +29,12 @@ export default function home(){
     Don't lose your favourites! <b><u>Sign in</u></b> to ensure your favourites are saved and accessible from whereever you are
 </p>
 <ul className="list">
-<li><img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/1.jpeg" width="200" height="250">
+<li><img src={image1} width="200" height="250">
 </img>
 <p><h3>
     Yellow top&emsp;<b>$8</b>
 </h3>
-    <img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/s.jpeg" width="100">
+    <img src={s} width="100">
 </img>
 </p>
 <div className="italics">Available in 7 colours</div>
@@ -34,33 +43,33 @@ export default function home(){
 </div></p>
    <a href="default.asp" target="_blank">Select Size/Colour</a>
 </li>
-<li><img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/2.jpeg" >
+<li><img src={image2} width="200" height="250" >
 </img>
 <p><h3>
     black top&emsp;<b>$10-$12</b>
     </h3>
-    <img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/s.jpeg" >
+    <img src={s} width="100" >
 </img>
 </p>
 <div className="italics">Available in 10 colours</div>
     <a href="default.asp" target="_blank">Select Size/Colour</a>
 </li>
-<li><img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/3.jpeg" >
+<li><img src={image3} width="200" height="250" >
 </img>
 <p><h3>
     denim jacket&emsp;<b>$15</b>
     </h3>
-    <img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/s.jpeg">
+    <img src={s} width="100">
 </img>
 </p>
     <a href="default.asp" target="_blank">Select Size/Colour</a>
 </li>
-<li><img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/4.webp">
+<li><img src={image4} width="200" height="250">
 </img>
 <p><h3>
     black tee&emsp;<b>$12</b>
     </h3>
-    <img src="/Users/rsingh1/Documents/projects/cart-app/src/Images/s.jpeg">
+    <img src={s} width="100">
 </img>
 </p>
 <a href="default.asp" target="_blank">Select Size/Colour</a>
