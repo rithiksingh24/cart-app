@@ -1,0 +1,24 @@
+h1{
+    font-family: "futura";
+    color:black;
+}
+div.relative {
+    position:absolute;
+    right: 0px;
+    border: 0px solid #555555;
+}
+div.relativeleft {
+    width: 200px;
+    left: 0px;
+    border: 3px solid black;
+}
+div.italics{
+    font-style: italic;
+}
+.font{
+    font-family: "futura";
+}
+ul.list li{
+    display:inline-grid;
+    width: 220px;
+}
