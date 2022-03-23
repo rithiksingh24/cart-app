@@ -1,9 +1,7 @@
-export default function Button(){
-    return(
-        <button>
-            <div className="font">
-                Empty your favourites
-            </div>
-        </button>
-    )
+import React from 'react';
+import ReactDOM from 'react-dom';
+export default function Button(props){
+    return <button>{props.brand}</button>;
 }
+
+

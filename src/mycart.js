@@ -20,7 +20,7 @@ export default function Home(){
 </h1>
 <div className="font">
 <div className="relative">
-    <Button />
+    <Button brand="UNIVERSAL"/>
 </div>
 <p>
     Don't lose your favourites! <b><u>Sign in</u></b> to ensure your favourites are saved and accessible from whereever you are
