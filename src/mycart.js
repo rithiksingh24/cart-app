@@ -4,6 +4,7 @@ import image2 from './Images/2.jpeg';
 import s from './Images/s.jpeg';
 import image3 from './Images/3.jpeg';
 import image4 from './Images/4.webp';
+import Button from './button';
 
 
 
@@ -19,11 +20,7 @@ export default function Home(){
 </h1>
 <div className="font">
 <div className="relative">
-    <button>
-        <div className="font">
-        Empty your favourites
-        </div>
-    </button>
+    <Button />
 </div>
 <p>
     Don't lose your favourites! <b><u>Sign in</u></b> to ensure your favourites are saved and accessible from whereever you are

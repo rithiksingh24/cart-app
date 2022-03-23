@@ -4,7 +4,7 @@ import Home from './mycart';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Home />
     </div>
   );
